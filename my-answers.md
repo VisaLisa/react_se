@@ -2,6 +2,10 @@
 - Link to Github repository: https://github.com/VisaLisa/react_se
 - email used for registration: visakhalisajiam@gmail.com
 
+End result looks like this: 
+![SE React App]()
+
+
 ## 1.1 Sentry Error Monitoring for React
 Prompt: Send a sample React project with Sentry integrated - a React app with a button that triggers an error will suffice.
 
