@@ -3,7 +3,7 @@
 - email used for registration: visakhalisajiam@gmail.com
 
 End result looks like this: 
-![SE React App]()
+![SE React App](https://github.com/VisaLisa/react_se/blob/master/assets/Lisa%20-%20SE%20React%20App%20.png)
 
 
 ## 1.1 Sentry Error Monitoring for React
@@ -39,24 +39,24 @@ Steps to recreate
    2. Create index.js, navbarelements.js, about.js, blogs.js, contact.js, index.js, signup.js
    3. Edit app.js to include new routes
    4. edit index.js to include Integrations
-   ![Performance (Auto Instrumentation)](https://github.com/VisaLisa/react_se/blob/master/assets/Sentry%201.2%20-%20Performance%20(Auto%20Instrumentation).png)
+![Performance (Auto Instrumentation)](https://github.com/VisaLisa/react_se/blob/master/assets/Sentry%201.2%20-%20Performance%20(Auto%20Instrumentation).png)
 
 
 
-1. Makes use of the React Profiler integration to instrument spans for UI Component render durations
+2. Makes use of the React Profiler integration to instrument spans for UI Component render durations
 
 Steps to recreate
    1. View Performance > Transaction Summary > Event Details
-   ![Event Details](https://github.com/VisaLisa/react_se/blob/master/assets/Sentry%201.2%20-%20Event%20Details.png)
+![Event Details](https://github.com/VisaLisa/react_se/blob/master/assets/Sentry%201.2%20-%20Event%20Details.png)
 
 
 
-1. Makes an API call - the SDK automatically captures API requests made via XHR or fetch and instruments spans to measure the request duration (see docs).
+3. Makes an API call - the SDK automatically captures API requests made via XHR or fetch and instruments spans to measure the request duration (see docs).
      ● No need to display any response data
      ● You can use any public API for that call. For instance Catfacts
 Steps to recreate
      1. Create CatFacts.js
      2. Add cat-fact.herokuapp.com/facts/random to Tracing Origin
      3. Add CatFact to app.js
-      ![CatFact](https://github.com/VisaLisa/react_se/blob/master/assets/Sentry%201.2%20-%20CatFacts.png)
+![CatFact](https://github.com/VisaLisa/react_se/blob/master/assets/Sentry%201.2%20-%20CatFacts.png)
     
